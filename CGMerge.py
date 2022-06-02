@@ -7,13 +7,13 @@ print('请选择要合并的游戏CG：\n'
       '4.銀色、遥か(Caution: Unfixed bugs)\n')
 choice = input("请输入：")
 if choice == '1':
-    os.system('python 初恋_CGmerge.py')
+    os.system('python ./CGscripts/初恋_CGmerge.py')
 elif choice == '2':
-    os.system('python 星織_PECGmerge.py')
+    os.system('python ./CGscripts/星織_PECGmerge.py')
 elif choice == '3':
-    os.system('python 月彼&SSR_CGmerge.py')
+    os.system('python ./CGscripts/月彼&SSR_CGmerge.py')
 elif choice == '4':
-    os.system('python 銀遥_CGmerge.py')
+    os.system('python ./CGscripts/銀遥_CGmerge.py')
 else:
     print('输入错误！')
 
