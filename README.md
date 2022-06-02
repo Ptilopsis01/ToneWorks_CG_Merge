@@ -3,9 +3,11 @@
 Several python scripts for merging the CGs extracted from the games of tone work's
 
 这个项目是用来合并tone work's社的游戏中的CG的，目前支持：初恋1/1、星织梦未来（仅Perfect Edition）、银色遥远（目前有bug，不建议使用）、在月之彼岸邂逅（含SSR）
+
 This project is used to merge the CGs extracted from the games of tone work's， currently support：初恋1/1, 星織ユメミライ(Perfect Edition only), 銀色、遥か(caution: unfixed bugs)、月の彼方で逢いましょう(including SSR)
 
 注意，此脚本不包含解包功能，请先完成解包后再进行合成
+
 Caution: this script does not include the unpack function, please unpack the CGs first
 
 ## 使用方法
