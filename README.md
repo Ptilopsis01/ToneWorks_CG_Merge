@@ -12,7 +12,7 @@ Caution: this script does not include the unpack function, please unpack the CGs
 
 由于游戏中解包出的画廊使用的CG合成规则文件不含ex和ex2图层的数据，所以在合成银遥、月彼和月彼SSR时，如有这两个图层就直接进行了全排列，也因此会产生一些原本没有或明显图层错误的图片，自行删除即可
 
-Because the gallery CG merging rule files extracted from the games do not contain ex and ex2 layer data, so when merging 銀色、遥か、月の彼方で逢いましょう(including SSR), if there are ex and ex2 layers, it will be performed all permutations, which lead to some CGs don't exist in the games or have obvious layer errors, please delete them manually
+Because the gallery CG merging rule files extracted from the games do not contain ex and ex2 layer data, when merging 銀色、遥か、月の彼方で逢いましょう(including SSR), if there are ex and ex2 layers, it will be performed all permutations, which lead to some CGs don't exist in the games or have obvious layer errors, please delete them manually
 
 ## 使用方法
 
