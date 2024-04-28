@@ -15,8 +15,8 @@ Because the gallery CG merging rule files extracted from the games do not contai
 
 ### 1. 解包合成规则/Unpack the merging rules
 
-首先使用[SiglusExtract](https://github.com/xmoeproject/SiglusExtract)解包Scene.pck，然后在解包后的文件中找到如图所示命名方式的.txt文件，将其放置于某个目录下并确保该目录下只有一个.txt文件  
-First, use [SiglusExtract](https://github.com/xmoeproject/SiglusExtract) to unpack Scene.pck, then find the .txt files named as shown in the picture in the unpacked files, put it in a directory and make sure there is only one .txt file in this directory.
+首先使用[SiglusExtract](https://github.com/xmoeproject/SiglusExtract)解包Scene.pck，然后在解包后的文件中找到如图所示命名方式的.txt文件，将其放置于某个目录下并确保该目录下只有这些.txt文件  
+First, use [SiglusExtract](https://github.com/xmoeproject/SiglusExtract) to unpack Scene.pck, then find the .txt files named as shown in the picture in the unpacked files, put it in a directory and make sure there are only these .txt files in this directory
 
 <img src="./readme/01.png" width="879" alt="">
 
