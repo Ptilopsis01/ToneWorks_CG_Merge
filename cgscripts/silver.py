@@ -5,8 +5,6 @@ import fnmatch
 import concurrent.futures
 
 def merge_silver(file_path, output_path): 
-    if not os.path.exists(output_path):
-        os.makedirs(output_path)
     save_path = output_path
     all_file = fnmatch.filter(os.listdir(file_path), '*.png')
     txt_path = fnmatch.filter(os.listdir(file_path), '*.txt')

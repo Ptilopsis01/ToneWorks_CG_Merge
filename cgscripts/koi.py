@@ -5,8 +5,6 @@ import fnmatch
 import concurrent.futures
 
 def merge_koi(file_path, output_path): 
-    if not os.path.exists(output_path):
-        os.makedirs(output_path)
     save_path = output_path
     all_file = fnmatch.filter(os.listdir(file_path), '*.png')
     txt_path = fnmatch.filter(os.listdir(file_path), '*.txt')
@@ -15,7 +13,7 @@ def merge_koi(file_path, output_path):
 
     n = 0
     while n < len(txt_path):
-        def read_txt():
+        def read_txt():    # 循环读取txt文件
             with open(file_path + str(txt_path[n]), 'r', encoding='utf-16 LE') as infile:
                 merge_list = []
                 for line in infile:
@@ -24,8 +22,6 @@ def merge_koi(file_path, output_path):
                         merge_list.append(file_name)
                 print(merge_list)
                 return merge_list
-
-        # 循环读取txt文件
 
         cg_list = read_txt()
         length = len(cg_list) - 1
